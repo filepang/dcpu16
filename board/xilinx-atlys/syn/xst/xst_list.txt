@@ -1,6 +1,7 @@
-./syn_define.v
-../../../../core/rtl/verilog/dcpu16_alu.v
-../../../../core/rtl/verilog/dcpu16_cpu.v
-../../../../core/rtl/verilog/dcpu16_ctl.v
-../../../../core/rtl/verilog/dcpu16_regs.v
-../../../../core/rtl/verilog/dcpu16_mbus.v
+verilog work ./syn_define.v
+verilog work ../../rtl/verilog/dcpu16_xilinx_atlys.v
+verilog work ../../../../core/rtl/verilog/dcpu16_alu.v
+verilog work ../../../../core/rtl/verilog/dcpu16_cpu.v
+verilog work ../../../../core/rtl/verilog/dcpu16_ctl.v
+verilog work ../../../../core/rtl/verilog/dcpu16_regs.v
+verilog work ../../../../core/rtl/verilog/dcpu16_mbus.v

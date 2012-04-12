@@ -14,17 +14,11 @@ run
 -write_timing_constraints    No
 -fsm_extract                 YES
 -fsm_encoding                User
--mux_extract                 YES
 -resource_sharing            YES
 -rom_extract                 Yes
 -ram_extract                 Yes
 -ram_style                   Auto
--mux_style                   Auto
--decoder_extract             YES
--priority_extract            YES
 -shreg_extract               YES
--shift_extract               YES
--xor_collapse                YES
 -iobuf                       YES
 -equivalent_register_removal YES
 -bufg                        4
@@ -33,6 +27,5 @@ run
 -register_balancing          No
 -move_first_stage            YES
 -move_last_stage             YES
--slice_packing               YES
 -iob                         auto
 
