@@ -1,12 +1,12 @@
 // testbench
-+incdir+../bench/verilog
-../bench/verilog/top.v
-../bench/verilog/wb_simple_syscon.v
-../bench/verilog/wb_mast_model.v
-../bench/verilog/blk_mem64k.v
++incdir+../../bench/verilog
+../../bench/verilog/top.v
+../../bench/verilog/wb_simple_syscon.v
+../../bench/verilog/wb_mast_model.v
+../../bench/verilog/blk_mem64k.v
 
 // design
-+incdir+../rtl/verilog
-../rtl/verilog/wb_xilinx_bram.v
++incdir+../../rtl/verilog
+../../rtl/verilog/wb_xilinx_bram.v
 
 
