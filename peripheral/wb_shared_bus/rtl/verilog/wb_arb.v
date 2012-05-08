@@ -8,10 +8,10 @@ module wb_arb (
 	// ----------------------------
 	// parameter
 	// ----------------------------
-	parameter [3:0]	grant0 = 4'b0001,
-					grant1 = 4'b0010,
-					grant2 = 4'b0100,
-					grant3 = 4'b1000;
+	localparam [3:0]	grant0 = 4'b0001,
+						grant1 = 4'b0010,
+						grant2 = 4'b0100,
+						grant3 = 4'b1000;
 
 	reg [3:0] state;
 	assign grant = state;
