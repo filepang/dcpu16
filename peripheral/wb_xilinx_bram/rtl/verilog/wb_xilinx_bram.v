@@ -44,7 +44,7 @@ module wb_xilinx_bram (
 	// Wishbone interface logic
 	// --------------------------
 	reg [3:0] state;
-	parameter 	STW_IDLE	= 3'b001,
+	localparam 	STW_IDLE	= 3'b001,
 				STW_READ	= 3'b010,
 				STW_DONE	= 3'b100;
 	always @(posedge clk or posedge rst) begin
